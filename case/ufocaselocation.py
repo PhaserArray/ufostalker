@@ -12,7 +12,7 @@ class UFOCaseLocation:
                  "zipcode"]
 
     def __init__(self,
-                 name,
+                 location_name,
                  longitude,
                  latitude,
                  country,
@@ -20,7 +20,7 @@ class UFOCaseLocation:
                  county,
                  city,
                  zipcode):
-        self.location_name = name
+        self.location_name = location_name
         self.coordinates = UFOCaseCoordinates(longitude, latitude)
         self.country = country
         self.region = region
@@ -29,4 +29,4 @@ class UFOCaseLocation:
         self.zipcode = zipcode
 
     def __str__(self):
-        return self.name
+        return self.location_name
