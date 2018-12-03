@@ -1,0 +1,2 @@
+class InvalidUFOCaseException(Exception):
+    pass

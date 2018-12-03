@@ -1,0 +1,2 @@
+class InvalidPageSizeException(Exception):
+    pass
