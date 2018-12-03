@@ -64,7 +64,7 @@ for case in UFOFeed(skip_existing=True, stop_after=10):
 for case in UFOFeed(skip_existing=False, count=5, stop_after=10):
     print(case)
 
-# This is how you would print all the future cases that will ever be submitted (provided the script keeps running).
+# This is how you would print the last page of cases and all the future cases that will ever be submitted in the future (provided the script keeps running).
 for case in UFOFeed():
     print(case)
 ```
